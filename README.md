@@ -18,6 +18,7 @@ Let's go ahead and instantiate some data structures across these different DB ty
 relations across all the systems:
 
 Model 1
+
 |  key  | value |
 |-------|-------|
 | word1 | word1 |
@@ -27,6 +28,7 @@ Model 1
 | wordn | wordn |
 
 Model 2
+
 | key   |   base64   |
 |-------|------------|
 | word1 | b64(word1) |
@@ -44,6 +46,7 @@ Model 2
 | b64(wordn) | wordn |
 
 Model 3
+
 | id  |  key  |
 |-----|-------|
 |  1  | word1 |
